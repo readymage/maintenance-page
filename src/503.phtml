@@ -1,0 +1,100 @@
+<?php
+/**
+ * Maintenance Page
+ *
+ * @copyright Scandiweb, Inc. All rights reserved.
+ */
+
+?>
+<style>
+    body {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        font-size: 1.4vh;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    /* Responsive text size for smaller screens */
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+
+    a {
+        color: #7950f2;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #333;
+        text-decoration: none;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@700&display=swap');
+
+    .red-hat-text {
+        font-family: "Red Hat Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+    }
+
+    .readymage {
+        font-weight: 700;
+        display: flex;
+    }
+
+    .powered-by {
+        margin-top: 60px;
+        color: #333;
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        position: fixed;
+        margin: 5% auto 0;
+        left: 0;
+        right: 0;
+        bottom: 20px;
+        font-size: 2vh;
+        flex-flow: wrap;
+    }
+
+    @media screen and (max-width: 768px) {
+        .powered-by {
+            font-size: 36px;
+        }
+    }
+</style>
+
+<div class="description">
+    <h1>Our Website is Currently Under Maintenance</h1>
+    <p>We'll be back soon. Thank you for your patience.</p>
+</div>
+<div class="powered-by">
+    <span>Powered by</span>
+    <a href="https://readymage.com/" target="_blank" class="red-hat-text readymage">
+        <span style="color: rgb(153, 0, 255);">ready</span>
+        <span style="color: rgb(70, 67, 98);">mage</span>
+    </a>
+</div>

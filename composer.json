@@ -1,0 +1,26 @@
+{
+    "name": "readymage/maintenance-page",
+    "description": "Magento 2 module that adds custom maintenance page",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "ReadyMage"
+    ],
+    "require": {
+      "magento/framework": "*"
+    },
+    "license": [
+      "OSL-3.0"
+    ],
+    "support": {
+        "email": "info@scandiweb.com"
+    },
+    "autoload": {
+      "files": [
+        "src/registration.php"
+      ],
+      "psr-4": {
+        "ReadyMage\\MaintenancePage\\": "src"
+      }
+    }
+  }
